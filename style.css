@@ -79,7 +79,7 @@ button {
 }
 
 .btn-primary:hover,
-.btn-prcontainerimary:focus,
+.btn-primary:focus,
 .form__btn:hover,
 .form__btn:focus {
     background-color: var(--light-pink);
@@ -496,6 +496,10 @@ button {
     width: 1.5rem;
 }
 
+.section__title--lg {
+    padding: 0px 10px;
+}
+
 @media (max-width: 500px) {
 
     .footer {
@@ -516,9 +520,10 @@ button {
         width: 150px;
     }
 }
+
 @media (min-width: 768px) {
     .footer .row {
-        flex-direction: column;
+        flex-direction: row-reverse;
         align-items: flex-start;
         font-size: 0.875rem;
     }
@@ -534,16 +539,16 @@ button {
 }
 
 @media (min-width:990px){
-    /* .row {
+    .row {
         display: flex;
         align-items: center;
         justify-content: center;
     }
 
     .col {
-        flex: 50px 0 50%;
+        flex: 1 0 50%;
         max-width: 50%;
-    } */
+    }
     .footer {
         margin-top: 158px;
         padding-top: 124px;
