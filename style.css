@@ -159,9 +159,10 @@ button {
    width: 80ch;
 }
 
-@media (max-width:1300px){
+@media (max-width:1000px){
     .header-description article {
         padding: 0px 0px;
+        width: auto;
      }
 }
 
