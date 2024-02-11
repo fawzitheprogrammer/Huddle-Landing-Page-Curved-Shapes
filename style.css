@@ -578,7 +578,7 @@ button {
     }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 990px) {
     .footer .row {
         display: flex;
         flex-direction: row-reverse;
